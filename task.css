@@ -1,0 +1,511 @@
+.body{
+    margin:0;
+    padding: 0;
+}
+.bottom-left{
+    position: absolute;
+    top:40px;
+    left:16px;
+    color:#fff;
+}
+.bottom-left p{
+    position: absolute;
+    color:#fff;
+}
+.learn-more{
+    top:-200px;
+    left:20px;
+    margin-right: 10px;
+    position: relative;
+    width:140px;
+    height:60px;
+    padding-left:10px;
+    border-style: none;
+    border-radius: 5px;
+    text-align: center;
+    background-color: yellow;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    font-size: medium;
+    cursor: pointer;
+}
+.learn-more:hover{
+    background-color: purple;
+    transform: scale(1.2);
+
+}
+.columnm{
+    float: left;
+    position: relative;
+    width: 45.33%;
+    padding: 10px;
+    top:40px;
+}
+.columnm:hover{
+    transform: scale(1.1);
+}
+.columnms{
+    float: left;
+    width: 55.33%;
+    margin-top: -403px;
+    margin-bottom: 0%;
+}
+.columnms:hover{
+    transform: scale(1.1);
+}
+
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    
+}
+.heading h1{
+    align-items: center;
+    text-align: center;
+    margin:15px;
+    cursor: context-menu;
+}
+
+
+.heading p{
+    width:25%;
+    font-size:larger;
+    position: relative;
+    top:100px;
+    left:30%;
+}
+.heading img{
+    width:300px;
+    height:300px;
+    position:relative;
+    top:-200px;
+    left:60%;
+
+}
+.nav{
+    position: absolute;
+}
+.nav a{
+    left:80%;
+    display: inline-block;
+    padding: 2%;
+    color:whitesmoke;
+    margin-top: 4%;
+}
+.nav a:hover{
+    text-decoration:none;
+    color: yellow;
+}
+.ico{
+    display:flex;
+    margin-left:10%;
+    margin-right:100px;
+    border-bottom: 2px solid purple;
+    margin-bottom: 15%;
+    margin-top:-5%;
+}
+.card{
+    cursor: context-menu;
+    align-items:center;
+    margin:20px 20px;
+    padding:20px 60px;
+}
+.card:hover{
+    box-shadow: 0 8px 12px 0 rgb(7, 7, 5);
+}
+#card1{
+    background-color: seashell;
+    text-align: center;
+}
+#card2{
+
+    background-color: seashell;
+    text-align: center;
+
+}
+#card3{
+    background-color:seashell;
+    text-align: center;
+}
+.ico .card button{
+    cursor: pointer;
+    background-color: purple;
+    width:200px;
+    height: 50px;
+    border-style: none;
+    border-radius: 10px;
+    color:black;
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+}
+.ico .card button:hover{
+    transform: scale(1.2);
+}
+.heading1 h2{
+    position:absolute;  
+    margin-top:-12%;
+    margin-left: 45%;
+
+}
+.contain1{
+    margin-top:2%;
+    display: inline-block;
+    position:relative;
+    width:25%;
+}
+.contain1 .image{
+    display: inline-flex;
+    width:100%;
+    height: 45%;
+}
+.over1{
+    display: inline-block;
+    text-align: center;
+    color:black;
+    top:0;
+    height:70%;
+    width:100%; 
+
+}
+.contain1:hover .over1{
+    opacity: 1;
+    transform: scale(1.1);
+}
+.contain2{
+    margin-top:2%;
+    display: inline-block;
+    position:relative;
+    width:25%;
+}
+.contain2 .image{
+    display: inline-flex;
+    width:100%;
+    height: 45%;
+}
+.over2{
+    display: inline-block;
+    text-align: center;
+    color:black;
+    top:0;
+    height:70%;
+    width:100%;
+    opacity: 0s;
+}
+.contain2:hover .over2{
+    opacity: 1;
+    transform: scale(1.1);
+}
+.contain3{
+    margin-top:2%;
+    display: inline-block;
+    position:relative;
+    width:23.4%;
+   
+}
+.contain3 .image{
+    display: inline-flex;
+    width:100%;
+    height:45%;
+}
+.over3{
+    display: inline-block;
+    text-align: center;
+    color:black;
+    top:0;
+    height:70%;
+    width:100%;
+}
+.text2 p{
+    margin-top: 20%;
+ }
+ 
+ #pricing h2{
+     text-align: center;
+     margin-top: 5%;
+ }
+ #pricing .columns{
+    float: left;
+    position: relative;
+    width: 30%;
+    padding: 15px 5px  25px;
+ }
+ #pricing ul{
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 12px;
+    padding: 0;
+
+ }
+ #pricing ul:hover{
+    box-shadow: 0 8px 12px 0 rgb(7, 7, 5);
+
+ }
+ #pricing  li {
+    border-bottom: 2px solid #eee;
+    padding: 20px;
+    text-align: center;
+  }
+  .button {
+    background-color: #f7e711;
+    border: none;
+    color:black;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  .button:hover{
+      background-color: purple;
+  }
+  @media only screen and (max-width: 600px) {
+    .columns {
+      width: 100%;
+    }
+  }
+  #wrapper {
+    display: flex;
+    width: 920px; 
+    height: auto; 
+    margin: 0 auto;
+} 
+.header{
+    text-align: center;
+}
+#videocontainer{
+    display: inline-block;
+    flex-direction: row;
+    width: 100%;
+    padding:45px;
+    background-color: rgb(70 20 78);
+    margin-left: 0;
+    margin-top:20px;
+}
+video{
+    padding-left:20%;
+}
+.w3-content{
+    margin-left:auto;
+    margin-right:auto
+}
+.w3-black,.w3-hover-black:hover{
+    color:#fff!important;
+    background-color:#000!important
+}
+
+.w3-display-left
+{
+    position:absolute;
+    left:0%;
+    transform:translate(0%,-50%);
+    -ms-transform:translate(-0%,-50%)
+}
+.w3-display-right{
+    position:absolute;
+    right:0%;
+    transform:translate(0%,-50%);
+    -ms-transform:translate(0%,-50%)}
+
+
+.w3-button{
+    border:none;
+    display:inline-block;
+    padding:8px 16px;
+    vertical-align:middle;
+    overflow:hidden;
+    text-decoration:none;
+    color:inherit;
+    background-color:inherit;
+    text-align:center;
+    cursor:pointer;
+}
+.liz{
+    top:5px;
+
+}
+.team2{
+    margin-left: 26.5%;
+
+}
+.continer1 .heading{
+    margin-top: -804px;
+    text-align: center;
+}
+#liz img{
+    width: 28.9rem !important;
+    height: 15rem !important;
+    object-fit: cover;
+}
+#liz .owl_carousel{
+    display: inline-flex;
+    height: 1rem !important;
+    max-width: 20rem !important;
+    margin: auto;
+}
+
+#liz .image img{
+    padding-top: 23px;
+    height: 5rem !important;
+    width: 10rem !important;
+    object-fit: cover;
+    cursor: pointer;
+}
+#newsletter {
+    margin-top: 40px;
+    font-weight: bolder;
+    padding-top:10%;
+    text-align: center;
+    font-size: 1.7rem;
+    background-image:url('https://images.immediate.co.uk/production/volatile/sites/4/2021/06/GettyImages-1076692176-f7505eb.jpg?quality=90&resize=768,574');
+    height: 14.5rem;
+    background-size: cover;
+    background-position: center;
+}
+#newsletter .input_signup{
+    height: 4.4rem;
+    display: flex;
+    justify-content: center;
+  
+}
+#newsletter .input_signup input{
+    max-width: 25rem;
+    height: 3.4rem;
+    border: none;
+    outline: none;
+    padding: 0 0.5rem;
+    font-size: 1.2rem;
+    color: #82589F;
+}
+#newsletter .input_signup button{
+    height: 3.3rem;
+    font-size: 1.2rem;
+    margin-left: 0.8rem;
+    color: #000;
+    font-weight: 600;
+    border-style: none;
+    border-radius: 2rem;
+    background: #fed330;
+    padding: 1rem 0.8rem;
+}
+#newsletter .input_signup button:hover{
+    background: #82589F;
+    color: #fff;
+    transform: scale(1.4);
+}
+.bloghead{
+    text-align: center;
+}
+.row{
+    display: flex;
+    text-align: center;
+    height:800px;
+}
+.column{
+    flex: 34.33%;
+    padding:5px;
+   
+}
+.column:hover{
+    box-shadow: 0 8px 12px 0 rgb(7, 7, 5);
+    transform: scale(1);
+}
+#blog button{
+    
+    display: inline-block;
+    background:#b2bec3;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    color: #000;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    transition: 0.5s;
+}
+#blog button:hover{
+    background: #fed330;
+}
+
+h5{
+    font-size: 1.3rem !important;
+    margin: 1rem 0;
+    font-weight: 600;
+}
+p{
+    font-size: 1.4rem;
+    color: #adadad;  
+}
+.mapouter {
+    display: inline-flex;
+    position: relative;
+    text-align: right;
+    width: 67%;
+    height: 75rem;
+    margin-top: 45px;
+}
+
+.gmap_canvas {
+    display: inline;
+    background: none !important;
+    width: 100%;
+    height: 60rem;
+}
+
+.gmap_iframe {
+    height:55rem !important;
+    width: 30rem !important;
+    bottom: 0ch;
+}
+#contact{
+    margin-top: 45px;
+    padding-left: 23px;
+}
+.dis1{
+    display: inline-flex;
+    
+}
+.heading12{
+    color:white;
+    text-align: center;
+  
+}
+.contact_form{
+    background: #fed330;
+    
+}
+form label{
+    padding-top: 0%;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+ form, input, textarea{
+  font-size: 1.3rem;
+  padding: 1rem 2rem;
+  border: none;
+  outline: none;
+}
+#contact form button{
+    background: #82589F;
+    color: #fff;
+    height:80px;
+    width:110px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+   
+}
+.sub{
+    padding-top: 23px;
+}
+
+#footer{
+    margin-top: -280px;
+    width: 100%;
+    left: 0;
+    top:0;
+    background: #111;
+    bottom:0;
+  }
+  #footer li{
+      list-style-type: none;   
+  }
